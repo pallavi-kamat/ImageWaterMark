@@ -16,7 +16,29 @@
 		217F31601761EDDF000E522B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 217F315F1761EDDF000E522B /* Default.png */; };
 		217F31621761EDDF000E522B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 217F31611761EDDF000E522B /* Default@2x.png */; };
 		217F31641761EDDF000E522B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 217F31631761EDDF000E522B /* Default-568h@2x.png */; };
+		217F316D1761EE3E000E522B /* StichImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217F316B1761EE3E000E522B /* StichImagesViewController.m */; };
+		217F316E1761EE3E000E522B /* StichImagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217F316C1761EE3E000E522B /* StichImagesViewController.xib */; };
+		217F31781761FAE6000E522B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217F31771761FAE6000E522B /* CoreImage.framework */; };
+		217F317E1761FE5D000E522B /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 217F317C1761FE5D000E522B /* ShowImageViewController.m */; };
+		217F317F1761FE5D000E522B /* ShowImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 217F317D1761FE5D000E522B /* ShowImageViewController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21C809FD1767076A00C0B7CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21C809F71767076900C0B7CF /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		21C809FF1767076A00C0B7CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21C809F71767076900C0B7CF /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A34414DDB1EC00852800;
+			remoteInfo = GPUImageTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		217F314A1761EDDF000E522B /* ImageEditorSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageEditorSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +54,14 @@
 		217F315F1761EDDF000E522B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		217F31611761EDDF000E522B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		217F31631761EDDF000E522B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		217F316A1761EE3E000E522B /* StichImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StichImagesViewController.h; sourceTree = "<group>"; };
+		217F316B1761EE3E000E522B /* StichImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StichImagesViewController.m; sourceTree = "<group>"; };
+		217F316C1761EE3E000E522B /* StichImagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StichImagesViewController.xib; sourceTree = "<group>"; };
+		217F31771761FAE6000E522B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		217F317B1761FE5D000E522B /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
+		217F317C1761FE5D000E522B /* ShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
+		217F317D1761FE5D000E522B /* ShowImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowImageViewController.xib; sourceTree = "<group>"; };
+		21C809F71767076900C0B7CF /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../GPUImage-master 2/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				217F31781761FAE6000E522B /* CoreImage.framework in Frameworks */,
 				217F314E1761EDDF000E522B /* UIKit.framework in Frameworks */,
 				217F31501761EDDF000E522B /* Foundation.framework in Frameworks */,
 				217F31521761EDDF000E522B /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +82,7 @@
 		217F31411761EDDE000E522B = {
 			isa = PBXGroup;
 			children = (
+				21C809F71767076900C0B7CF /* GPUImage.xcodeproj */,
 				217F31531761EDDF000E522B /* ImageEditorSample */,
 				217F314C1761EDDF000E522B /* Frameworks */,
 				217F314B1761EDDF000E522B /* Products */,
@@ -68,6 +100,7 @@
 		217F314C1761EDDF000E522B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				217F31771761FAE6000E522B /* CoreImage.framework */,
 				217F314D1761EDDF000E522B /* UIKit.framework */,
 				217F314F1761EDDF000E522B /* Foundation.framework */,
 				217F31511761EDDF000E522B /* CoreGraphics.framework */,
@@ -81,6 +114,12 @@
 				217F315C1761EDDF000E522B /* AppDelegate.h */,
 				217F315D1761EDDF000E522B /* AppDelegate.m */,
 				217F31541761EDDF000E522B /* Supporting Files */,
+				217F316A1761EE3E000E522B /* StichImagesViewController.h */,
+				217F316B1761EE3E000E522B /* StichImagesViewController.m */,
+				217F316C1761EE3E000E522B /* StichImagesViewController.xib */,
+				217F317B1761FE5D000E522B /* ShowImageViewController.h */,
+				217F317C1761FE5D000E522B /* ShowImageViewController.m */,
+				217F317D1761FE5D000E522B /* ShowImageViewController.xib */,
 			);
 			path = ImageEditorSample;
 			sourceTree = "<group>";
@@ -97,6 +136,15 @@
 				217F31631761EDDF000E522B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21C809F81767076900C0B7CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21C809FE1767076A00C0B7CF /* libGPUImage.a */,
+				21C80A001767076A00C0B7CF /* GPUImageTests.octest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,12 +186,35 @@
 			mainGroup = 217F31411761EDDE000E522B;
 			productRefGroup = 217F314B1761EDDF000E522B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 21C809F81767076900C0B7CF /* Products */;
+					ProjectRef = 21C809F71767076900C0B7CF /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				217F31491761EDDF000E522B /* ImageEditorSample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		21C809FE1767076A00C0B7CF /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 21C809FD1767076A00C0B7CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		21C80A001767076A00C0B7CF /* GPUImageTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GPUImageTests.octest;
+			remoteRef = 21C809FF1767076A00C0B7CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		217F31481761EDDF000E522B /* Resources */ = {
@@ -154,6 +225,8 @@
 				217F31601761EDDF000E522B /* Default.png in Resources */,
 				217F31621761EDDF000E522B /* Default@2x.png in Resources */,
 				217F31641761EDDF000E522B /* Default-568h@2x.png in Resources */,
+				217F316E1761EE3E000E522B /* StichImagesViewController.xib in Resources */,
+				217F317F1761FE5D000E522B /* ShowImageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +239,8 @@
 			files = (
 				217F315A1761EDDF000E522B /* main.m in Sources */,
 				217F315E1761EDDF000E522B /* AppDelegate.m in Sources */,
+				217F316D1761EE3E000E522B /* StichImagesViewController.m in Sources */,
+				217F317E1761FE5D000E522B /* ShowImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +270,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Webonise software solutions pvt ltd";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -210,6 +286,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "90455944-0AEF-40F5-9C89-AE941E5F3751";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -227,6 +304,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Webonise software solutions pvt ltd";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -235,6 +313,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "90455944-0AEF-40F5-9C89-AE941E5F3751";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -282,6 +361,7 @@
 				217F31691761EDDF000E522B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,12 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "StichImagesViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    StichImagesViewController *stichImagesViewController = [[StichImagesViewController alloc] initWithNibName:@"StichImagesViewController" bundle:nil];
+    [self.window addSubview:stichImagesViewController.view];
+    [self.window setRootViewController:stichImagesViewController];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
